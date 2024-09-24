@@ -105,3 +105,7 @@ variable "ingress_rule_description" {
 variable "es_port" {
   description = "es port"
 }
+
+variable "s3_bucket" {
+  description = "s3 bucket name"
+}

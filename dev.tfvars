@@ -19,7 +19,7 @@ leader_cluster                    = true                                        
 allowed_cidrs                     = ["192.168.1.1./32", "172.16.254.1/32"]          ## network to access es
 subnet_ids                        = ["subnet-xxxx", "subnet-xxxx", "subnet-xxxx"]   ## private subnet ids
 vpc_id                            = "vpc-xxxxx"                                     ## vpc id
-
+s3_bucket                         = "es-s3-snapshot-bucket"                         ## s3 bucket to store es snapshots
 
 
 
